@@ -8,8 +8,12 @@
 </br>
 
 1. Create an EC2 VM based on Ubuntu Server 20.04 LTS and name it `Nginx LB ` (do not forget to `open TCP port 80 `for HTTP connections, also open `TCP port 443` – this port is used for secured HTTPS connections)
+  
+  </br>
 
 ![EC2](./images-project10/EC2.PNG)
+
+</br>
 
 ![open ports](./images-project10/open-443-and%2080.PNG)
 
@@ -58,6 +62,8 @@ server {
 #       include /etc/nginx/sites-enabled/*;
 
 ```
+</br>
+
 ![lb-config](./images-project10/lb-configuration.PNG)
 
 
@@ -122,6 +128,8 @@ Learn how to associate your domain name to your Elastic IP [on this page.](https
 Side Self Study: Read about different DNS record types and learn what they are used for.
 
 Check that your `Web Servers` can be reached from your browser using new domain name using HTTP protocol – `http://<your-domain-name.com>`
+
+</br>
 
 ![dbbnown-LB](./images-project10/dbbnown-LB.PNG)
 
